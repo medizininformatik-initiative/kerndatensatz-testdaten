@@ -58,3 +58,24 @@ Observation                       : 1000
 Patient                           : 1000
 ----------------------------------------
 total                             : 5000
+
+
+###############################################################
+#                                                             #
+#          VHF-Testdaten_03-andererLaborwert.xlsx             #
+#                                                             #
+###############################################################
+
+1000 neue Patienten wie die Patienten in 01 aber mit einem
+völlig anderen Laborwert.
+
+VHF-Testdaten_03-andererLaborwert-VHF11001-VHF12000.xlsx.zip
+
+=
+
+Condition                         : 1000
+Encounter                         : 2000
+Observation                       : 1000
+Patient                           : 1000
+----------------------------------------
+total                             : 5000
