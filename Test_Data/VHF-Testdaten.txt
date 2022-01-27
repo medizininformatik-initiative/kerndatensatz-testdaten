@@ -1,3 +1,11 @@
+Die VHF-Testdaten lassen sich komplett auf einen Server spielen
+
+###############################################################
+#                                                             #
+#                 VHF-Testdaten_01.xlsx                       #
+#                                                             #
+###############################################################
+
 Ursprüngliche Vorhofflimmern (VHF) Testdaten sind Patienten
 unterschiedlichen Alters (17 bis 83 Jahre, davon 3300
 Patienten mit Alter > 65 Jahre) mit einer Diagnose 
@@ -7,7 +15,7 @@ Außerdem haben alle Patienten einen Wert NT-proBNP SerPl-mCnc
 (LOINC = 33762-6) mit der Einheit pg/mL. Die Patienten sind
 nach Alter sortiert (d.h. gräßere Pat-ID = höheres Alter).
 
-VHF-Testdaten_01.xlsx ergibt (aufgeteilt in 1000er Einheiten):
+Aufgeteilt in 1000er Einheiten:
 
 VHF-Testdaten_01-VHF00001-VHF01000.zip
 VHF-Testdaten_01-VHF01001-VHF02000.zip
@@ -29,10 +37,20 @@ Patient                           : 10000
 -----------------------------------------
 total                             : 50000
 
-#########################################
 
 
+###############################################################
+#                                                             #
+#           VHF-Testdaten_02-andereDiagnose.xlsx              #
+#                                                             #
+###############################################################
 
+1000 neue Patienten wie die Patienten in 01 aber mit einer
+völlig anderen Diagnose.
+
+VHF-Testdaten_02-andereDiagnose-VHF10001-VHF11000.zip
+
+=
 
 Condition                         : 1000
 Encounter                         : 2000
