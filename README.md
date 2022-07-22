@@ -2,7 +2,15 @@
 
 Autor: [Alexander.Struebing@imise.uni-leipzig.de](mailto:alexander.struebing@imise.uni-leipzig.de)
 
-Dieses Projekt stellt kerndatensatzkonforme FHIR json-Testdaten zur Verfügung. 
+Dieses Projekt stellt kerndatensatzkonforme FHIR json-Testdaten zur Verfügung.
+
+Ohne Authentifizierung:
+- https://mii-agiop-3p.life.uni-leipzig.de/fhir
+- https://mii-agiop-3p.life.uni-leipzig.de/blaze
+
+Mit Authentifizierung:
+- https://mii-agiop-polar.life.uni-leipzig.de/fhir/
+- https://mii-agiop-polar.life.uni-leipzig.de/blaze/
 
 Alle einzelnen Datensätze im Verzeichnis `Test_Data` sind aufgeteilt in jeweils (maximal) 1000 Patienten, die jeweils als `json.bz2`, `json.gz`, `json.zip` und `ndjson` verfügbar sind.  
 Die `json.bz2` und `json.gz` beinhalten jeweils 1 Transaktion-Bundle mit 1000 Patienten.  
