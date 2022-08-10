@@ -7,13 +7,13 @@ Dies sind die originalen Polar-Testdaten. Die Patienten sind aus echten Fällen 
 * mit Prozeduren (Procedure)
 * mit Medikation (Medication, Medication Administration, Medication Statement)
 
-      Condition                         :  255
-      Encounter                         :  129
-      Medication                        :  231
-      MedicationAdministration          : 3537
-      MedicationStatement               :  130
-      Observation                       : 4968
-      Patient                           :   61
-      Procedure                         :   32
-      ----------------------------------------
-      total                             : 9343
+      Condition                         :   270
+      Encounter                         :   129
+      Medication                        :   242
+      MedicationAdministration          :   165
+      MedicationStatement               :  3600
+      Observation                       :  7006
+      Patient                           :    61
+      Procedure                         :    47
+      -----------------------------------------
+      total                             : 11520
