@@ -74,3 +74,31 @@ VHF-Testdaten_03-andererLaborwert-VHF11001-VHF12000
     Patient                           : 1000
     ----------------------------------------
     total                             : 5000
+
+# VHF-Testdaten_04-MixedCases
+
+Testfälle speziell für das Script zum Vorhofflimmern.
+Sie sind in a, b, c, und d aufgeteilt, wobei sich die Datensätze
+immer nur darin unterscheiden, wie die Encounter die Observations
+(Diagnosen) referenzieren und umgekehrt.
+
+* a = Encounter referenziert die Diagnosen, aber die Diagnosen nicht den Encounter
+* b = Diagnosen referenzieren den Encounter, aber die Encounter nicht die Diagnosen
+* c = Encounter referenziert die Diagnosen und die Diagnosen den Encounter
+* d = Weder referenziert der Encounter die Diagnosen noch die Diagnosen den Encounter
+
+
+* VHF-Testdaten_04-MixedCases_VHF-MIXED-TEST-CASE-0001-a-VHF-MIXED-TEST-CASE-0001-a
+* VHF-Testdaten_04-MixedCases_VHF-MIXED-TEST-CASE-0001-a-VHF-MIXED-TEST-CASE-0001-b
+* VHF-Testdaten_04-MixedCases_VHF-MIXED-TEST-CASE-0001-a-VHF-MIXED-TEST-CASE-0001-c
+* VHF-Testdaten_04-MixedCases_VHF-MIXED-TEST-CASE-0001-a-VHF-MIXED-TEST-CASE-0001-d
+
+=
+
+    Condition                         :  36
+    Encounter                         :  56
+    Observation                       :  92
+    Patient                           :   4
+    ---------------------------------------
+    total                             : 188
+
