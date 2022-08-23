@@ -1,8 +1,7 @@
 # Allgemein
 
-Alle einzelnen Datensätze sind aufgeteilt in jeweils (maximal) 1000 Patienten, die jeweils als `json.bz2`, `json.gz`, `json.zip` und `ndjson` verfügbar sind.  
-Die `json.bz2` und `json.gz` beinhalten jeweils 1 Transaktion-Bundle mit 1000 Patienten.  
-Die `json.zip` und `ndjson` beinhalten jeweils 1000 Transaktion-Bundles mit 1 Patienten.
+Alle einzelnen Datensätze sind aufgeteilt in jeweils (maximal) 1000 Patienten, die jeweils als `json.zip` und `ndjson` verfügbar sind.  
+Die `json.zip` und `ndjson` beinhalten jeweils bis zu 1000 Transaktion-Bundles mit jeweils 1 Patienten.
 Die gleichnamige Excel-Datei ist die Vorlage zum Generieren JSON-Dateien.
 
 # VHF-Testdaten_01
